@@ -61,10 +61,10 @@ When you move an object or change its elevation, the neon-blue dashed flight pat
 
 ```mermaid
 graph TD
-    A[Web Simulator] --- B[Python Tello Bridge]
-    B --- C[YOLOv8 Vision Processing]
-    C --- D[Autonomous Flight Logic]
-    D --- B
+    A[Dron Cam] --- B[OpenCV]
+    B --- C[YOLOv8 Vision Processing]
+    C --- D[System administration with Python]
+    D --- B
 ```
 
 ---
