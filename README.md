@@ -63,7 +63,7 @@ When you move an object or change its elevation, the neon-blue dashed flight pat
 graph TD
     A[Dron Cam] --- B[OpenCV]
     B --- C[YOLOv8 Vision Processing]
-    C --- D[System administration with Python]
+    C --- D[Decision making with Python]
     D --- B
 ```
 
